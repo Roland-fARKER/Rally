@@ -1,0 +1,95 @@
+.nav{
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav img{
+    width: 80px;
+}
+
+.card2{
+    max-width: 35rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wrapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont1 h2 {
+    color: rgb(60, 60, 218);
+}
+
+.txt1{
+    text-align: center; 
+    color: rgb(60, 60, 218);  
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btns{
+    background-color:  rgb(60, 60, 218) ;
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    border: solid 1px rgb(60, 60, 218);
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btns i, p{
+    padding: 0;
+    margin: 0;
+}
+
+.btns:hover{
+    background-color: #fff ;
+    color: rgb(60, 60, 218);
+}
+
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pd{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.knob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .col{
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+}
